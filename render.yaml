@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: shraddha-backend
+    env: node
+    plan: free
+    buildCommand: cd ShraddhaBackend && pnpm install
+    startCommand: cd ShraddhaBackend && pnpm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        value: mongodb+srv://swapnildeshmukhintellisys_db_user:Orpo0zBcmKDuPCkX@forex.rmwpg4q.mongodb.net/forex_trading
+      - key: JWT_SECRET
+        value: 7Yvrx0uBkwFgxjCp5+Jfnb51CUkdgqHE3AT3CUJjdgU=
+      - key: PORT
+        value: 5000
+      - key: ALLOWED_ORIGINS
+        value: https://forex-phi-seven.vercel.app,https://expressforex.prochartist.com,https://www.zerofx.club,http://localhost:5173,http://localhost:5174
+      - key: ADMIN_EMAIL
+        value: admin@expressforex.com
+      - key: ADMIN_PASSWORD
+        value: admin123
+

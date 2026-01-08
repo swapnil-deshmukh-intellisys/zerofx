@@ -1,0 +1,6 @@
+/* App Styles - Minimal since we're using Tailwind CSS */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
