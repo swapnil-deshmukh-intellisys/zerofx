@@ -154,7 +154,7 @@ const fetchingProfile = useRef(false);
           return;
         }
 
-        const res = await fetch("https://shraddha-backend.onrender.com/api/auth/profile", {
+        const res = await fetch("https://zerofx.onrender.com/api/auth/profile", {
           headers: {
             "Content-Type": "application/json",
             Authorization: `Bearer ${token}`,

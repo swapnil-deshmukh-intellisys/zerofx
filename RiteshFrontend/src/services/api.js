@@ -1,8 +1,8 @@
 // API Base URL
-const API_BASE_URL = 'https://shraddha-backend.onrender.com/api';
+const API_BASE_URL = 'https://zerofx.onrender.com/api';
 
 // Base URL for file uploads
-const UPLOADS_BASE_URL = 'https://shraddha-backend.onrender.com/uploads';
+const UPLOADS_BASE_URL = 'https://zerofx.onrender.com/uploads';
 
 // Helper function to get auth token
 const getAuthToken = () => {

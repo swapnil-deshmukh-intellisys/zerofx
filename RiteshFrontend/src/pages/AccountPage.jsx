@@ -45,7 +45,7 @@ const AccountPage = ({ userEmail, onSignOut, onProfileClick, onBack, onShowAccou
         const token = sessionStorage.getItem("token");
         if (!token) return;
 
-        const res = await fetch("https://shraddha-backend.onrender.com/api/auth/profile", {
+        const res = await fetch("https://zerofx.onrender.com/api/auth/profile", {
           headers: {
             "Content-Type": "application/json",
             Authorization: `Bearer ${token}`,
